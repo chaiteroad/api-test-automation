@@ -1,0 +1,11 @@
+Test Case ID,Expected Response Code,Actual Response Code,Status,Execution Timestamp
+TC1,200,200,Passed,Wed Jul 29 16:54:13 NZST 2020
+TC2,200,200,Passed,Wed Jul 29 16:54:16 NZST 2020
+TC3,404,404,Passed,Wed Jul 29 16:54:17 NZST 2020
+TC4,200,200,Passed,Wed Jul 29 16:54:17 NZST 2020
+TC5,200,200,Passed,Wed Jul 29 16:54:18 NZST 2020
+TC6,404,404,Passed,Wed Jul 29 16:54:19 NZST 2020
+TC7,201,201,Passed,Wed Jul 29 16:54:19 NZST 2020
+TC8,200,200,Passed,Wed Jul 29 16:54:21 NZST 2020
+TC9,204,204,Passed,Wed Jul 29 16:54:22 NZST 2020
+TC10,200,200,Passed,Wed Jul 29 16:54:24 NZST 2020

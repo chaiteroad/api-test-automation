@@ -1,0 +1,11 @@
+﻿TC-ID,Execution Flag,Base URI,API Path,API Method,Input Parameter,JSON Payload,Expected Response Code
+TC1,Y,https://reqres.in/,api/users?page=2,GET,,,200
+TC2,Y,https://reqres.in/,api/users,GET,2,,200
+TC3,Y,https://reqres.in/,api/users,Get,23,,404
+TC4,Y,https://reqres.in/,api/unknown,GET,,,200
+TC5,Y,https://reqres.in/,api/unknown,get,2,,200
+TC6,Y,https://reqres.in/,api/unknown,GET,23,,404
+TC7,Y,https://reqres.in/,api/users,POST,,tc7.json,201
+TC8,Y,https://reqres.in/,api/users,PUT,2,tc8.json,200
+TC9,Y,https://reqres.in/,api/users,delete,2,,204
+TC10,Y,https://reqres.in/,api/users,patch,2,tc10.json,200

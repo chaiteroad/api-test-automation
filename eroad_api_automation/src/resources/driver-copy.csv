@@ -1,0 +1,3 @@
+TC-ID,Execution Flag,Base URI,API Path,API Method,Input Parameter,JSON Payload,Expected Response Code,JSONKey,JSONValue,JSONKey,JSONValue,JSONKey,JSONValue
+TC2,Y,http://ams.test.erdmg.com/asset-management-service-api/provision/,devices,GET,,,200,,,,,,
+TC1,Y,http://ams.test.erdmg.com/asset-management-service-api/provision/,devices/dashcams,POST,,sample,201,"""serialNumber""","""FRB00340033143""",,,,
